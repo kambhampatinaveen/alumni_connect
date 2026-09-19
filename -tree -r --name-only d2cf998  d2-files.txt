@@ -1,0 +1,116 @@
+ backend/.env                                       |    3 [31m-[m
+ backend/.env.example                               |    3 [32m+[m
+ backend/.gitignore                                 |    3 [32m+[m
+ backend/data/alumniDataset.js                      |  555 [32m++[m
+ backend/data/store.json                            |  108 [32m+[m
+ backend/fix_phones.js                              |   64 [32m+[m
+ backend/node_modules/.bin/dotenv                   |   16 [31m-[m
+ backend/node_modules/.bin/dotenv.cmd               |   17 [31m-[m
+ backend/node_modules/.bin/dotenv.ps1               |   28 [31m-[m
+ backend/node_modules/.bin/node-gyp-build           |   16 [31m-[m
+ backend/node_modules/.bin/node-gyp-build-optional  |   16 [31m-[m
+ .../node_modules/.bin/node-gyp-build-optional.cmd  |   17 [31m-[m
+ .../node_modules/.bin/node-gyp-build-optional.ps1  |   28 [31m-[m
+ backend/node_modules/.bin/node-gyp-build-test      |   16 [31m-[m
+ backend/node_modules/.bin/node-gyp-build-test.cmd  |   17 [31m-[m
+ backend/node_modules/.bin/node-gyp-build-test.ps1  |   28 [31m-[m
+ backend/node_modules/.bin/node-gyp-build.cmd       |   17 [31m-[m
+ backend/node_modules/.bin/node-gyp-build.ps1       |   28 [31m-[m
+ backend/node_modules/.bin/semver                   |   16 [31m-[m
+ backend/node_modules/.bin/semver.cmd               |   17 [31m-[m
+ backend/node_modules/.bin/semver.ps1               |   28 [31m-[m
+ backend/node_modules/@mongodb-js/saslprep/LICENSE  |   22 [31m-[m
+ .../@mongodb-js/saslprep/dist/.esm-wrapper.mjs     |    4 [31m-[m
+ .../@mongodb-js/saslprep/dist/browser.d.ts         |    5 [31m-[m
+ .../@mongodb-js/saslprep/dist/browser.d.ts.map     |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/browser.js           |   12 [31m-[m
+ .../@mongodb-js/saslprep/dist/browser.js.map       |    1 [31m-[m
+ .../saslprep/dist/code-points-data-browser.d.ts    |    3 [31m-[m
+ .../dist/code-points-data-browser.d.ts.map         |    1 [31m-[m
+ .../saslprep/dist/code-points-data-browser.js      |    5 [31m-[m
+ .../saslprep/dist/code-points-data-browser.js.map  |    1 [31m-[m
+ .../saslprep/dist/code-points-data.d.ts            |    3 [31m-[m
+ .../saslprep/dist/code-points-data.d.ts.map        |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/code-points-data.js  |    5 [31m-[m
+ .../saslprep/dist/code-points-data.js.map          |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/code-points-src.d.ts |    7 [31m-[m
+ .../saslprep/dist/code-points-src.d.ts.map         |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/code-points-src.js   |  881 [31m--[m
+ .../saslprep/dist/code-points-src.js.map           |    1 [31m-[m
+ .../saslprep/dist/generate-code-points.d.ts        |    2 [31m-[m
+ .../saslprep/dist/generate-code-points.d.ts.map    |    1 [31m-[m
+ .../saslprep/dist/generate-code-points.js          |   83 [31m-[m
+ .../saslprep/dist/generate-code-points.js.map      |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/index.d.ts           |   11 [31m-[m
+ .../@mongodb-js/saslprep/dist/index.d.ts.map       |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/index.js             |   65 [31m-[m
+ .../@mongodb-js/saslprep/dist/index.js.map         |    1 [31m-[m
+ .../saslprep/dist/memory-code-points.d.ts          |   10 [31m-[m
+ .../saslprep/dist/memory-code-points.d.ts.map      |    1 [31m-[m
+ .../saslprep/dist/memory-code-points.js            |   32 [31m-[m
+ .../saslprep/dist/memory-code-points.js.map        |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/node.d.ts            |   10 [31m-[m
+ .../@mongodb-js/saslprep/dist/node.d.ts.map        |    1 [31m-[m
+ .../node_modules/@mongodb-js/saslprep/dist/node.js |   15 [31m-[m
+ .../@mongodb-js/saslprep/dist/node.js.map          |    1 [31m-[m
+ .../@mongodb-js/saslprep/dist/util.d.ts            |    2 [31m-[m
+ .../@mongodb-js/saslprep/dist/util.d.ts.map        |    1 [31m-[m
+ .../node_modules/@mongodb-js/saslprep/dist/util.js |   11 [31m-[m
+ .../@mongodb-js/saslprep/dist/util.js.map          |    1 [31m-[m
+ .../node_modules/@mongodb-js/saslprep/package.json |   86 [31m-[m
+ .../node_modules/@mongodb-js/saslprep/readme.md    |   29 [31m-[m
+ backend/node_modules/@standard-schema/spec/LICENSE |   21 [31m-[m
+ .../node_modules/@standard-schema/spec/README.md   |  198 [31m-[m
+ .../@standard-schema/spec/dist/index.cjs           |   18 [31m-[m
+ .../@standard-schema/spec/dist/index.d.cts         |  119 [31m-[m
+ .../@standard-schema/spec/dist/index.d.ts          |  119 [31m-[m
+ .../@standard-schema/spec/dist/index.js            |    0
+ .../@standard-schema/spec/package.json             |   52 [31m-[m
+ .../node_modules/@types/webidl-conversions/LICENSE |   21 [31m-[m
+ .../@types/webidl-conversions/README.md            |   15 [31m-[m
+ .../@types/webidl-conversions/index.d.ts           |   91 [31m-[m
+ .../@types/webidl-conversions/package.json         |   30 [31m-[m
+ backend/node_modules/@types/whatwg-url/LICENSE     |   21 [31m-[m
+ backend/node_modules/@types/whatwg-url/README.md   |   15 [31m-[m
+ backend/node_modules/@types/whatwg-url/index.d.ts  |  172 [31m-[m
+ .../@types/whatwg-url/lib/URL-impl.d.ts            |   22 [31m-[m
+ .../node_modules/@types/whatwg-url/lib/URL.d.ts    |   66 [31m-[m
+ .../whatwg-url/lib/URLSearchParams-impl.d.ts       |   20 [31m-[m
+ .../@types/whatwg-url/lib/URLSearchParams.d.ts     |   92 [31m-[m
+ .../node_modules/@types/whatwg-url/package.json    |   38 [31m-[m
+ .../@types/whatwg-url/webidl2js-wrapper.d.ts       |    4 [31m-[m
+ backend/node_modules/accepts/HISTORY.md            |  250 [31m-[m
+ backend/node_modules/accepts/LICENSE               |   23 [31m-[m
+ backend/node_modules/accepts/README.md             |  140 [31m-[m
+ backend/node_modules/accepts/index.js              |  238 [31m-[m
+ backend/node_modules/accepts/package.json          |   47 [31m-[m
+ backend/node_modules/bcrypt/.dockerignore          |    6 [31m-[m
+ backend/node_modules/bcrypt/.editorconfig          |   19 [31m-[m
+ .../.github/workflows/build-pack-publish.yml       |  110 [31m-[m
+ .../node_modules/bcrypt/.github/workflows/ci.yaml  |   42 [31m-[m
+ backend/node_modules/bcrypt/CHANGELOG.md           |  184 [31m-[m
+ backend/node_modules/bcrypt/Dockerfile             |   57 [31m-[m
+ backend/node_modules/bcrypt/Dockerfile-alpine      |   41 [31m-[m
+ backend/node_modules/bcrypt/ISSUE_TEMPLATE.md      |   18 [31m-[m
+ backend/node_modules/bcrypt/LICENSE                |   19 [31m-[m
+ backend/node_modules/bcrypt/Makefile               |   19 [31m-[m
+ backend/node_modules/bcrypt/README.md              |  388 [31m-[m
+ backend/node_modules/bcrypt/SECURITY.md            |   15 [31m-[m
+ backend/node_modules/bcrypt/bcrypt.js              |  242 [31m-[m
+ backend/node_modules/bcrypt/binding.gyp            |   49 [31m-[m
+ backend/node_modules/bcrypt/build-all.sh           |   37 [31m-[m
+ .../node_modules/bcrypt/examples/async_compare.js  |   28 [31m-[m
+ .../bcrypt/examples/forever_gen_salt.js            |    8 [31m-[m
+ backend/node_modules/bcrypt/package.json           |   62 [31m-[m
+ .../bcrypt/prebuilds/darwin-arm64/bcrypt.node      |  Bin [31m88608[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/darwin-x64/bcrypt.node        |  Bin [31m55488[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/linux-arm/bcrypt.glibc.node   |  Bin [31m67504[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/linux-arm/bcrypt.musl.node    |  Bin [31m67420[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/linux-arm64/bcrypt.glibc.node |  Bin [31m76640[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/linux-arm64/bcrypt.musl.node  |  Bin [31m76552[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/linux-x64/bcrypt.glibc.node   |  Bin [31m84904[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/linux-x64/bcrypt.musl.node    |  Bin [31m96424[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/win32-arm64/bcrypt.node       |  Bin [31m182784[m -> [32m0[m bytes
+ .../bcrypt/prebuilds/win32-x64/bcrypt.node         |  Bin [31m195584[m -> [32m0[m bytes
+ backend/node_modules/bcrypt/promises.js            |   45 [31m-[m
+ backend/node_modules/bcrypt/src/

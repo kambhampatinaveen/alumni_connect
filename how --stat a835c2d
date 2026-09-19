@@ -1,0 +1,20 @@
+[33ma835c2d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFinal[m[33m, [m[1;31morigin/complete_project[m[33m, [m[1;31morigin/Final[m[33m, [m[1;32mcomplete_project[m[33m)[m refs/heads/Final@{0}: branch: Created from origin/Final
+[33ma835c2d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFinal[m[33m, [m[1;31morigin/complete_project[m[33m, [m[1;31morigin/Final[m[33m, [m[1;32mcomplete_project[m[33m)[m HEAD@{0}: checkout: moving from complete_project to Final
+[33ma835c2d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFinal[m[33m, [m[1;31morigin/complete_project[m[33m, [m[1;31morigin/Final[m[33m, [m[1;32mcomplete_project[m[33m)[m refs/remotes/origin/Final@{0}: update by push
+[33m8616da4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m refs/remotes/origin/Final@{1}: fetch origin Final: storing head
+[33ma835c2d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFinal[m[33m, [m[1;31morigin/complete_project[m[33m, [m[1;31morigin/Final[m[33m, [m[1;32mcomplete_project[m[33m)[m refs/remotes/origin/complete_project@{0}: update by push
+[33ma835c2d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFinal[m[33m, [m[1;31morigin/complete_project[m[33m, [m[1;31morigin/Final[m[33m, [m[1;32mcomplete_project[m[33m)[m refs/heads/complete_project@{0}: commit: Your descriptive commit message
+[33ma835c2d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFinal[m[33m, [m[1;31morigin/complete_project[m[33m, [m[1;31morigin/Final[m[33m, [m[1;32mcomplete_project[m[33m)[m HEAD@{1}: commit: Your descriptive commit message
+[33m8616da4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m refs/heads/complete_project@{1}: branch: Created from refs/remotes/origin/complete_project
+[33m8616da4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{2}: checkout: moving from admin-dashboard to complete_project
+[33m8616da4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m refs/remotes/origin/complete_project@{1}: fetch origin: storing head
+[33m503747e[m[33m ([m[1;31morigin/fix/module-integration[m[33m, [m[1;31morigin/admin-dashboard[m[33m)[m refs/remotes/origin/fix/module-integration@{0}: fetch origin: storing head
+[33md2cf998[m[33m ([m[1;32madmin-dashboard[m[33m)[m refs/heads/admin-dashboard@{0}: commit: Your descriptive commit message here
+[33md2cf998[m[33m ([m[1;32madmin-dashboard[m[33m)[m HEAD@{3}: commit: Your descriptive commit message here
+[33m503747e[m[33m ([m[1;31morigin/fix/module-integration[m[33m, [m[1;31morigin/admin-dashboard[m[33m)[m refs/heads/admin-dashboard@{1}: branch: Created from refs/remotes/origin/admin-dashboard
+[33m503747e[m[33m ([m[1;31morigin/fix/module-integration[m[33m, [m[1;31morigin/admin-dashboard[m[33m)[m HEAD@{4}: checkout: moving from main to admin-dashboard
+[33mf1adb71[m[33m ([m[1;31morigin/NEW[m[33m)[m refs/remotes/origin/NEW@{0}: fetch origin: storing head
+[33m503747e[m[33m ([m[1;31morigin/fix/module-integration[m[33m, [m[1;31morigin/admin-dashboard[m[33m)[m refs/remotes/origin/admin-dashboard@{0}: fetch origin: storing head
+[33m0e015c2[m[33m ([m[1;31morigin/feature/d-varun-admin-dashboard[m[33m)[m refs/remotes/origin/feature/d-varun-admin-dashboard@{0}: fetch origin: storing head
+[33m71234f0[m[33m ([m[1;31morigin/jayasree-events-referrals-mentorship[m[33m)[m refs/remotes/origin/jayasree-events-referrals-mentorship@{0}: fetch origin: storing head
+[33m8616da4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m refs/heads/main@{0}: clone: from https://github.com/NadipilliAditya/Rcts-C4GT-Team9

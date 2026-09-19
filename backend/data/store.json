@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": "ADM-1789670370872",
+      "_id": "ADM-1789670370872",
+      "name": "Naveen Kambhampati",
+      "email": "kambhampatinaveen5@gmail.com",
+      "phone": "6281841399",
+      "passwordHash": "$2b$10$luI5LD.LU0rKs440b6R5texEETJTowzdTiSVG0dfomF/B48HUGwr6",
+      "role": "admin",
+      "department": "Administration",
+      "designation": "Platform Administrator",
+      "avatar": "https://ui-avatars.com/api/?name=Naveen%20Kambhampati&background=4f46e5&color=fff&size=150",
+      "createdAt": "2026-09-17T18:39:30.872Z",
+      "lastLoginAt": "2026-09-18T05:40:16.856Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ALM-1789670745720",
+      "_id": "ALM-1789670745720",
+      "name": "naveen",
+      "email": "kambhampatinaveen@gmail.com",
+      "phone": "78945612358255929529",
+      "passwordHash": "$2b$10$28i3XoRyQBR.7bCCVsZ10uP5AIHLuDgBLmDzWw68qA4U9P2poaX2C",
+      "role": "alumni",
+      "department": "AID",
+      "company": "google",
+      "designation": "sw",
+      "batch": "2024",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-09-18T05:17:41.492Z",
+      "avatar": "https://ui-avatars.com/api/?name=naveen&background=6366f1&color=fff&size=150",
+      "createdAt": "2026-09-17T18:45:45.867Z"
+    },
+    {
+      "id": "STU-1789704515063",
+      "_id": "STU-1789704515063",
+      "name": "ganesh",
+      "email": "ganesh@gmail.com",
+      "passwordHash": "$2b$10$Zl01E/7YUQsb/dxQMbzwy.9kI4g7tUrnmi9CIb/Vi4NEne2v9fq6.",
+      "role": "student",
+      "department": "Computer Science",
+      "designation": "Undergraduate Student",
+      "batch": "2025",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-09-18T05:21:15.048Z",
+      "avatar": "https://ui-avatars.com/api/?name=ganesh&background=10b981&color=fff&size=150",
+      "createdAt": "2026-09-18T04:08:35.224Z"
+    }
+  ],
+  "alumni": [
+    {
+      "id": "ALM-1789670745720",
+      "_id": "ALM-1789670745720",
+      "name": "naveen",
+      "email": "kambhampatinaveen@gmail.com",
+      "phone": "78945612358255929529",
+      "rollNumber": "12345678",
+      "branch": "AID",
+      "department": "AID",
+      "college": "KIET",
+      "company": "google",
+      "role": "sw",
+      "designation": "sw",
+      "ctc": "12 LPA",
+      "batch": "2024",
+      "location": "India",
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-09-18T05:17:41.492Z",
+      "skills": [
+        "Mentorship",
+        "Career Guidance"
+      ],
+      "availableForMentorship": true,
+      "availableForReferrals": true,
+      "avatar": "https://ui-avatars.com/api/?name=naveen&background=6366f1&color=fff&size=150",
+      "createdAt": "2026-09-17T18:45:45.867Z",
+      "pin": "12345678"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-1789704515063",
+      "_id": "STU-1789704515063",
+      "name": "ganesh",
+      "email": "ganesh@gmail.com",
+      "batch": "2025",
+      "department": "Computer Science",
+      "gpa": "7.8",
+      "mentorshipRequests": 0,
+      "status": "ACTIVE",
+      "lastLoginAt": "2026-09-18T05:21:15.048Z",
+      "userId": {
+        "_id": "STU-1789704515063",
+        "id": "STU-1789704515063",
+        "name": "ganesh",
+        "email": "ganesh@gmail.com"
+      },
+      "createdAt": "2026-09-18T04:08:35.224Z"
+    }
+  ],
+  "events": [],
+  "participations": [],
+  "mentorships": [],
+  "mentorClasses": [],
+  "referrals": [],
+  "notifications": []
+}
