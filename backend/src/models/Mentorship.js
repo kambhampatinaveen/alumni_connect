@@ -81,4 +81,4 @@ const mentorshipSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Mentorship', mentorshipSchema);
+module.exports = mongoose.model('Mentorship', mentorshipSchema, 'mentorships');

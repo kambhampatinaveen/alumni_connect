@@ -45,4 +45,4 @@ const messageSchema = new mongoose.Schema({
 
 messageSchema.index({ mentorshipId: 1, createdAt: 1 });
 
-module.exports = mongoose.model('Message', messageSchema);
+module.exports = mongoose.model('Message', messageSchema, 'messages');

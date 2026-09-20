@@ -82,4 +82,4 @@ notificationSchema.pre('save', function() {
   }
 });
 
-module.exports = mongoose.model('Notification', notificationSchema);
+module.exports = mongoose.model('Notification', notificationSchema, 'notifications');

@@ -59,4 +59,4 @@ const mentorClassSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('MentorClass', mentorClassSchema);
+module.exports = mongoose.model('MentorClass', mentorClassSchema, 'mentorclasses');
