@@ -208,6 +208,7 @@ async function seedDatabase(forceReset = false) {
       // Seed Events: 1 Upcoming, 1 Past
       const futureDate = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
       const pastEventDate = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
+      const admin = await User.findOne({ role: 'admin' });
 
       await Event.create({
         name: 'Annual Tech & Innovation Summit 2026',
